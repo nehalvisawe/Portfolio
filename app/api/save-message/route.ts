@@ -1,5 +1,6 @@
 import dbConnect from "@/lib/dbConnect";
-import MessageModel from "@/models/message.model";
+import MessageModel from "@/models/Message.model";
+
 
 
 export async function POST(request: Request) {

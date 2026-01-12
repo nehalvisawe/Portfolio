@@ -1,6 +1,6 @@
 import AboutSection from "./components/About";
 import ContactSection from "./components/ContactSection";
-import Demo from "./components/Demo";
+
 import ExperienceSection from "./components/ExperienceSection";
 import HeroSection from "./components/HeroSection";
 import ChromeProjects from "./components/ProjectSection";
