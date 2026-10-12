@@ -10,8 +10,8 @@ const HeroSection = () => {
   const profileData = {
     name: "Your Name",
     role: "Full Stack Developer",
-    specialty: "DevOps & Cloud",
-    tools: ["Docker", "Kubernetes", "GCP", "Next.js"],
+    specialty: "Backend & Cloud",
+    tools: ["NextJs", "MERN", "GCP", "Next.js"],
     location: "India",
     status: "Exploring Opportunities"
   };
@@ -53,12 +53,12 @@ const HeroSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mt-8"
         >
-          <h1 className="text-5xl lg:text-5xl font-bold text-white tracking-tight mb-6 mt-6">
+          <h1 className="text-5xl lg:text-5xl font-bold text-center text-white tracking-tight mb-6 mt-6">
             Hey, I'm <span className="text-blue-500">Nehal</span>
           </h1>
           <p className="text-slate-400 text-xl max-w-2xl mx-auto leading-relaxed">
-            Final year Computer Engineering student specializing in automating 
-            infrastructure and crafting high-performance digital experiences.
+            computer science graduate,<br/> who enjoys turning ideas into things that actually work!
+            
           </p>
          
         </motion.div>

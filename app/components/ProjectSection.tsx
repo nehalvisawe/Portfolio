@@ -14,18 +14,18 @@ import {
   History
 } from 'lucide-react';
 import focusflow from '@/public/focusflow.png'
-import smartedu from '@/public/smartedu.png'
+import collegelms from '@/public/collegelms.png'
 import swachhBharat from '@/public/swachh-bharat.png'
 import Image from 'next/image';
 const PROJECTS_DATA = {
-  "SmartEDU - College LMS": {
+  "College LMS System": {
     id: "smartedu",
     title: "SmartEDU - Resource Hub",
     duration: "2025 - 2026",
     description: "A centralized platform for colleges providing an efficient environment for university study resource sharing.",
     tech: ["Next.js", "MongoDB", "MERN Stack", "Vercel"],
-    links: { live: "https://smart-edu-orcin.vercel.app/", github: "https://github.com/nehalvisawe" },
-    image: smartedu
+    links: { live: "https://college-lms-system.vercel.app/", github: "https://github.com/nehalvisawe" },
+    image: collegelms
   },
   "Swachh-Bharat Platform": {
     id: "swachh-bharat",
@@ -48,7 +48,7 @@ const PROJECTS_DATA = {
 };
 
 const ChromeProjects = () => {
-  const [activeTab, setActiveTab] = useState<keyof typeof PROJECTS_DATA>("SmartEDU - College LMS");
+  const [activeTab, setActiveTab] = useState<keyof typeof PROJECTS_DATA>("College LMS System");
 
   return (
     <section id="projects" className="bg-slate-950 py-24 px-6 border-t border-slate-900">
@@ -56,10 +56,10 @@ const ChromeProjects = () => {
         
         {/* Section Header */}
         <div className="mb-12">
-          <h2 className="text-4xl font-bold text-white mb-4 italic">Sources / Projects</h2>
+          <h2 className="text-4xl font-bold text-white mb-4 italic">Projects</h2>
           <p className="text-slate-400 max-w-2xl">
             Auditing built systems and deployed architectures. This section explores the 
-            source code and live environments of my engineering projects[cite: 8, 36].
+            source code and live environments of my engineering projects.
           </p>
         </div>
 

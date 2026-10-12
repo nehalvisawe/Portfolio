@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import nehalImage from '@/public/nehal.png'
+import nehalImage from '@/public/profile.jpeg'
 import Image from 'next/image';
 import { User, User2, User2Icon } from 'lucide-react';
 
@@ -57,10 +57,10 @@ const AboutSection = () => {
             
             <div className="space-y-6 text-slate-400 text-lg leading-relaxed">
               <p>
-                Hello! I'm a <span className="text-white font-semibold">Computer Engineering student</span> with a deep fascination for how the internet works at scale. My journey into tech started with curiosity about hardware, which eventually led me to the world of software architecture and cloud infrastructure.
+                Hello! I'm a <span className="text-white font-semibold">Computer Engineering graduate</span> with a deep fascination for how the internet works at scale. My background is in full-stack development, with a stronger interest in backend engineering APIs, databases, system architecture, and everything happening behind the UI
               </p>
               <p>
-                Currently, I focus on <span className="text-white font-semibold">DevOps & Cloud Computing</span>, bridging the gap between development and operations. I love building automated pipelines that make deployments faster and more reliable.
+                Currently, I’m going deeper into <span className="text-white font-semibold">Java, distributed systems, cloud  and GenAI and RAG</span> I’m not just collecting technologies; I’m trying to understand how they work together to build reliable, scalable software.
               </p>
               <p>
                 Beyond coding, you'll often find me:
@@ -68,7 +68,7 @@ const AboutSection = () => {
               
               <ul className="grid grid-cols-2 gap-2 mt-4 text-sm font-mono text-cyan-400">
                 <li className="flex items-center gap-2">
-                  <span className="text-xs">▹</span> Infrastructure as Code
+                  <span className="text-xs">▹</span> Reading
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-xs">▹</span> Graphics Design

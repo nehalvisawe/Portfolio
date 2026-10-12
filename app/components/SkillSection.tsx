@@ -9,40 +9,42 @@ const SKILLS_CATEGORIES = {
     icon: <Terminal className="w-4 h-4" />,
     description: "Core programming languages used for competitive programming and system logic[cite: 13].",
     skills: [
-      { name: "Java", level: "90%", color: "bg-orange-500" },
-      { name: "C++", level: "85%", color: "bg-blue-600" },
-      { name: "TypeScript", level: "80%", color: "bg-sky-500" },
-      { name: "Python", level: "75%", color: "bg-yellow-500" },
-      { name: "JavaScript", level: "90%", color: "bg-yellow-400" }
+      { name: "Java", level: "70%", color: "bg-orange-500" },
+      { name: "C++", level: "60%", color: "bg-blue-600" },
+      { name: "TypeScript", level: "70%", color: "bg-sky-500" },
+      { name: "Python", level: "50%", color: "bg-yellow-500" },
+      { name: "JavaScript", level: "80%", color: "bg-yellow-400" }
     ]
   },
   "Web Technologies": {
     icon: <Globe className="w-4 h-4" />,
-    description: "Full-stack development stack used in Bizkranti internship and SmartEDU[cite: 15, 32, 37].",
+    description: "Full-stack development stack",
     skills: [
       { name: "Next.js", level: "90%", color: "bg-white" },
       { name: "React.js", level: "92%", color: "bg-cyan-400" },
       { name: "Node.js", level: "85%", color: "bg-green-500" },
       { name: "MERN Stack", level: "88%", color: "bg-emerald-500" },
-      { name: "Tailwind CSS", level: "95%", color: "bg-teal-400" }
+      { name: "Tailwind CSS", level: "95%", color: "bg-teal-400" },
+      { name: "Spring", level: "40%", color: "bg-green-400" }
     ]
   },
   "Cloud & Tools": {
     icon: <Settings className="w-4 h-4" />,
-    description: "Infrastructure and version control competencies[cite: 16, 44].",
+    description: "Infrastructure and version control competencies.",
     skills: [
       { name: "Google Cloud (GCP)", level: "70%", color: "bg-blue-500" },
-      { name: "Git / GitHub", level: "95%", color: "bg-orange-600" },
-      { name: "MongoDB", level: "82%", color: "bg-green-600" },
-      { name: "Vercel", level: "90%", color: "bg-slate-300" }
+      { name: "Git / GitHub", level: "70%", color: "bg-orange-600" },
+      { name: "MongoDB", level: "72%", color: "bg-green-600" },
+      { name: "Vercel", level: "90%", color: "bg-slate-300" },
+
     ]
   },
   "Core Concepts": {
     icon: <Cpu className="w-4 h-4" />,
-    description: "Foundational engineering principles and architecture[cite: 17].",
+    description: "Foundational engineering principles and architecture",
     skills: [
       { name: "REST APIs", level: "90%", color: "bg-purple-500" },
-      { name: "System Design", level: "70%", color: "bg-pink-500" },
+      { name: "System Design", level: "40%", color: "bg-pink-500" },
       { name: "MVC Architecture", level: "85%", color: "bg-red-500" },
       { name: "Data Structures", level: "80%", color: "bg-blue-400" }
     ]
@@ -58,10 +60,10 @@ const ChromeSkills = () => {
         
         {/* Section Header */}
         <div className="mb-12">
-          <h2 className="text-4xl font-bold text-white mb-4">Technical Arsenal</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">Technical Skills</h2>
           <p className="text-slate-400 max-w-2xl italic">
             Inspecting the source of my expertise. Structured competencies from academic foundations 
-            and professional internships[cite: 21, 31].
+            and professional internships.
           </p>
         </div>
 
