@@ -30,7 +30,7 @@ const Footer = () => {
             <a href="https://github.com/nehalvisawe" className="text-slate-500 hover:text-white transition-colors">
               <Github className="w-5 h-5" />
             </a>
-            <a href="https://www.linkedin.com/in/nehal-visawe28/" className="text-slate-500 hover:text-blue-500 transition-colors">
+            <a href="https://www.linkedin.com/in/nehalvisawe" className="text-slate-500 hover:text-blue-500 transition-colors">
               <Linkedin className="w-5 h-5" />
             </a>
             <a href="https://x.com/NehalVisawe28" className="text-slate-500 hover:text-sky-400 transition-colors">

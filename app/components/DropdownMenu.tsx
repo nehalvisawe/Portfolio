@@ -30,7 +30,7 @@ const StayInTouch = () => {
     {
       name: 'LinkedIn',
       icon: <Linkedin className="w-4 h-4" />,
-      href: 'https://www.linkedin.com/in/nehal-visawe28/', //
+      href: 'https://www.linkedin.com/in/nehalvisawe/', //
       label: 'Professional Network'
     },
     {

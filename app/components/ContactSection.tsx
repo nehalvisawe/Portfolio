@@ -84,7 +84,7 @@ const ContactSection = () => {
 
             {/* Social Links */}
             <div className="flex gap-4">
-              <a href="https://www.linkedin.com/in/nehal-visawe28/" className="p-3 bg-slate-900 border border-slate-800 rounded-xl text-slate-400 hover:text-white hover:border-blue-500 transition-all">
+              <a href="https://www.linkedin.com/in/nehalvisawe/" className="p-3 bg-slate-900 border border-slate-800 rounded-xl text-slate-400 hover:text-white hover:border-blue-500 transition-all">
                 <Linkedin className="w-6 h-6" />
               </a>
               <a href="https://github.com/nehalvisawe" className="p-3 bg-slate-900 border border-slate-800 rounded-xl text-slate-400 hover:text-white hover:border-blue-500 transition-all">
